@@ -20,9 +20,9 @@ const data = {
   datasets: [
     {
       type: "line",
-      label: "Gas",
+      label: "Waste",
       data: [12, 22, 35, 20, 28, 38, 02, 12, 11, 8, 7, 4, 29, 8],
-      backgroundColor: "#766A55",
+      backgroundColor: "#fdb901",
       borderColor: "#766A55",
       tension: "1",
       borderDash: [5, 5],
@@ -79,7 +79,7 @@ const data = {
       type: "bar",
       label: "Bar Dataset",
       data: [10, 20, 15, 40, 18, 28, 22, 32, 21, 7, 9, 14, 19, 38],
-      backgroundColor: "#242E35",
+      backgroundColor: "black",
     },
   ],
 };
@@ -95,7 +95,7 @@ const config = {
       y: {
         // defining min and max so hiding the dataset does not change scale range
         min: 0,
-        max: 50,
+        max: 45,
       },
     },
   },

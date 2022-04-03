@@ -11,6 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700"
@@ -20,11 +21,18 @@
     <title>chart</title>
   </head>
   <body>
+    <nav class="nav">
+      <i class="fas fa-bolt"></i>
+      <h1><span>ENERGY</span> Dashboard</h1>
+      <i class="fas fa-power-off"></i>
+      <i class="fas fa-calendar-alt"></i>
+      <i class="fas fa-bars"></i>
+    </nav>
     <div class="chart-container">
       <canvas
         id="myChart"
         width="400"
-        height="150"
+        height="115"
         aria-label="Hello ARIA World"
         role="img"
       ></canvas>
@@ -34,61 +42,43 @@
       <div class="card cardOne">
         <div class="imgBx"></div>
         <div class="contentBx">
-          <h2>Energy</h2>
+          <h3 class="energy">Max Energy Consumed</h3>
+          <i class="fas fa-bolt"></i>
           <div class="size">
-            <h3>Kwh :</h3>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span></span>
+            <!-- <h3>Kwh :</h3> -->
+            <h1 class="one">7890</h1>
           </div>
-          <div class="color">
-            <h3>Consumed</h3>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <a href="#">Show</a>
+        
+          <a href="#" class="oneOne">Show</a>
+          <h3 class="dateOne">1st April, 2022</h3>
         </div>
       </div>
       <div class="card cardTwo">
         <div class="imgBx"></div>
         <div class="contentBx">
-          <h2>Gas</h2>
+          <h3 class="waste">Max Waste Generated</h3>
+          <i class="fas fa-trash"></i>
           <div class="size">
-            <h3>Kwh :</h3>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>0</span>
+            <!-- <h3>Kwh :</h3> -->
+            <h1 class="two">7890</h1>
           </div>
-          <div class="color">
-            <h3>Color :</h3>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <a href="#">Show</a>
+          
+          <a href="#" class="twoTwo">Show</a>
+          <h3 class="dateTwo">1st April, 2022</h3>
         </div>
       </div>
       <div class="card cardThree">
         <div class="imgBx"></div>
         <div class="contentBx">
-          <h2>Water</h2>
+          <h3 class="water">Max Water Consumed</h3>
+          <i class="fas fa-tint"></i>
           <div class="size">
-            <h3>Kwh :</h3>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>0</span>
+            <!-- <h3>Kwh :</h3> -->
+            <h1 class="three">7890</h1>
           </div>
-          <div class="color">
-            <h3>Color :</h3>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <a href="#">Show</a>
+          
+          <a href="#" class="threeThree">Show</a>
+          <h3 class="dateThree">1st April, 2022</h3>
         </div>
       </div>
     </div>
@@ -159,10 +149,10 @@
       </tr>
     </table>
     <div>
-      <h1>Hi</h1>
-      <h1>Hi</h1>
-      <h1>Hi</h1>
+      
     </div>
     <script src="index.js"></script>
+    <br>
+    <br>
   </body>
 </html>
